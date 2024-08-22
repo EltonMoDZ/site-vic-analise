@@ -1,0 +1,125 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.caixa {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.caixa-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa-child .caixa-child-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.status, .results, .strategies {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    width: 25%;
+    justify-content: center;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.status hr, .results hr, .strategies hr {
+    width: 100%; /* Faz com que o <hr> ocupe toda a largura disponível */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espaçamento superior opcional */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+}
+
+.header-profile{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;     /* Centraliza os itens verticalmente */
+    gap: 10px;
+}
+
+.header .profile-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+}
+
+.header .header-profile .exit {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+}
+
+.header .exit:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 2px #810000;
+    cursor: pointer;
+}
+
+.header .profile-menu:hover {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #666666;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.menu #link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu #link:hover {
+    color: #007bff;
+}
+
+#profile-menu-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.home {
+    background-color: #dd3907;
+}
+
+.away {
+    background-color: #17a2b8;
+}
+
+.tie {
+    background-color: #d8970a;
+}
+
+#result-icons span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
